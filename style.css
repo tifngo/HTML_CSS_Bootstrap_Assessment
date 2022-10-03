@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .grid {
+    display: grid;
+    background-color: orchid;
+    width: 100%;
+    height: 200px;
+    grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+  }
+  
+  .box {
+    background-color: pink;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .a {
+    grid-row: 2 / 5;
+    grid-column: 1 / 2;
+  }
+  
+  .b {
+    grid-row: 2 / 5;
+    grid-column: 3 / 4;
+  }
+  
+  .c {
+    grid-row: 2 / 5;
+    grid-column: 5 / 6;
+  }
+  
